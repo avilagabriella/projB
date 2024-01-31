@@ -39,13 +39,13 @@ const create = (req, res) => {
 
         else
 
-            res.redirect("");
+            res.redirect("http://127.0.0.1:5500/front/index.html");
 
     });
 
 }
 
-
+// CRUD - Read
 
 const read = (req, res) => {
 
@@ -63,7 +63,7 @@ const read = (req, res) => {
 
 }
 
-
+// Configurações de saída - FrontEnd
 
 const app = express();
 
@@ -71,12 +71,13 @@ app.use(express.json());
 app.use(cors());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+// Rotas de Saída - FrontEnd
 
 app.get("/", teste);
 app.post("/Salgados", create);
 app.get("/Salgados", read);
 
-
+// Teste e porta no console
 
 app.listen(3000, () => {
 
