@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/PWBE/aula 02/Projeto B/projB/front/FOTO/DONABETH.png"> 
+    <link rel="shortcut icon" href="FOTO/DONABETH.png"> 
     <title>Lojinha</title>
 </head>
 <body>
@@ -40,7 +40,7 @@
 </body>
 <script>
     const dados = document.getElementById('dados');
-    fetch('http://localhost:3000/form')
+    fetch('http://localhost:3000/Salgados')
         .then(res => res.json())
         .then(res => {
             res.forEach(cli => {
@@ -48,7 +48,7 @@
                     <tr>
                        
                         <td>${cli.nome}</td>
-                        <td>${cli.produto}</td>
+                        <td>${cli.produtos}</td>
                         <td>${cli.valor}</td>
                         <td>${cli.quantidade}</td>
                         <td>${cli.total}</td>

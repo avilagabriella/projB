@@ -4,40 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/PWBE/aula 02/Projeto B/projB/front/FOTO/DONABETH.png" type="image/x-icon">
+    <link rel="shortcut icon" href="FOTO/DONABETH.png" type="image/x-icon">
     <title>Cantina da dona Beth</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <!-- <header>
         <h1>Dona Beth</h1>
     </header> -->
-    <img src="/PWBE/aula 02/Projeto B/projB/front/FOTO/DONABETH.png" alt="">
+    <img src="FOTO/DONABETH.png" alt="">
     <main>
+        <form action="http://localhost:3000/Salgados" method="POST">
         <input type="text" name="nome" placeholder="nome" required>
-            <select name="" id="">
-                <option class="produto" value="">Produtos</option>
-                <option value="">Salgadinhos</option>
-                <option value="">Coxinha de frango</option>
-                <option value="">Hamburguer de cheddar</option>
-                <option value="">Hamburguer de Bacon</option>
-                <option value="">Pão de queijo</option>
-                <option value="">Pão de batata</option >
-                <option value="">Salgado de carne com bacon</option >
-                <option value="">Salgado de presunto e queijo</option >
-                <option value="">Suco de laranj</option>
-                <option value="">Agua</option> >
-                <option value="">Refrigerante</option>
-                <option value="">Toddynho</option>
-                <option value="">Bombom</option>
-                <option value="">Barrinha de chocolote</option>
-                <option value="">Donuts</option>
-                <option value="">Balas</option>
-                    <input type="text" name="valor" placeholder="valor" required>
-                    <input type="number" name="quantidade" placeholder="quantidade" required>
-                    <input type="number" name="total" placeholder="total" required>
+            <select name="" id="selector" style="width: 30vw;" required>
+                <option class="produto" value="null">Produtos</option>
+                <option value="Salgadinhos">Salgadinhos</option>
+                <option value="Coxinha">Coxinha de frango</option>
+                <option value="HamburguerCheddar">Hamburguer de cheddar</option>
+                <option value="HamburguerBacon">Hamburguer de Bacon</option>
+                <option value="PãoDeQueijo">Pão de queijo</option>
+                <option value="PãoDeBatata">Pão de batata</option>
+                <option value="CarneComBacon">Salgado de carne com bacon</option>
+                <option value="PresuntoEQueijo">Salgado de presunto e queijo</option>
+                <option value="Laranja">Suco de laranja</option>
+                <option value="Agua">Agua</option> >
+                <option value="Refrigerante">Refrigerante</option>
+                <option value="Toddynho">Toddynho</option>
+                <option value="Bombom">Bombom</option>
+                <option value="Barrinha">Barrinha de chocolote</option>
+                <option value="Donuts">Donuts</option>
+                <option value="Balas">Balas</option>
+                    <input type="text" name="valor" placeholder="valor" id="valor" required>
+                    <input type="text" name="quantidade" placeholder="quantidade" id="quantidade" required>
+                    <input type="text" name="total" placeholder="total" id="total" required>
                     <input type="date" name="date" placeholder="data" required>
-                   <input class="botao" type="submit" value="Enviar">
-                </form>
+                    <input class="botao" type="submit" value="Enviar">
+        </form>
     </main>
     <!-- <footer>
         <h2>By Ana and Gaby</h2>

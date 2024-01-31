@@ -4,11 +4,9 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const con = mysql.createConnection({
-    
     user: 'root',
     host: 'localhost',
     database: 'cantina'
-
 });
 
 const teste = (req, res) => {
