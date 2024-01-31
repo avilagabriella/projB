@@ -1,8 +1,8 @@
 # Cantina da Dona Beth
-------------------------------------------------
+
 
 * Projeto Full stack(MySQL, NodeJS, JS).
--------------------------------------------------
+
 # SOBRE O PROJETO:
 
 Este projeto foi pensado para ajudar A Dona Beth e demais profissionais do ramo, assim um meio de facilitar e controlar melhor ganho e despesar.
