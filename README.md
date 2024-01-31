@@ -12,7 +12,7 @@ Este projeto foi pensado para ajudar A Dona Beth e demais profissionais do ramo,
 -------------------------------------------------
 # COMO TESTAR:
 
-*
+
 -------------------------------------------------
 # TECNOLOGIAS:
 
