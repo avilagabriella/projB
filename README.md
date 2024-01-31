@@ -9,11 +9,11 @@ Este projeto foi pensado para ajudar A Dona Beth e demais profissionais do ramo,
 
 * Informando o nome, selecionar qual produto irá vender,data da venda e a quantidade, o valor já será atribuido quando selecionar o produto e o total será calculado automaticamente.
 * Logo aparece uma tabela mostrando as vendas completas do dia.
--------------------------------------------------
+
 # COMO TESTAR:
 
 
--------------------------------------------------
+
 # TECNOLOGIAS:
 
 * NodeJS
