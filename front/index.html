@@ -4,17 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="FOTO/DONABETH.png" type="image/x-icon">
+    <link rel="shortcut icon" href="FOTO/icon.png" type="image/x-icon">
     <title>Cantina da dona Beth</title>
     <script src="script.js" defer></script>
 </head>
+
 <body>
-    <!-- <header>
-        <h1>Dona Beth</h1>
-    </header> -->
-    <img src="FOTO/DONABETH.png" alt="">
+    
+    <div class="acesso">
+        <a class="acessar" href="./form.html">Acessar Vendas</a>
+    </div>
+  
+    <img class="ft" src="FOTO/02.png" alt="">
+
+    
     <main>
+       
         <form action="http://localhost:3000/Salgados" method="POST">
+            
         <input type="text" name="nome" placeholder="nome" required>
             <select name="" id="selector" style="width: 30vw;" required>
                 <option class="produto" value="null">Produtos</option>
@@ -34,18 +41,20 @@
                 <option value="Barrinha">Barrinha de chocolote</option>
                 <option value="Donuts">Donuts</option>
                 <option value="Balas">Balas</option>
-                    <input type="text" name="valor" placeholder="valor" id="valor" required>
+                    <input type="text" name="valor" placeholder="valor" id="valor" required> 
                     <input type="text" name="quantidade" placeholder="quantidade" id="quantidade" required>
                     <input type="text" name="total" placeholder="total" id="total" required>
                     <input type="date" name="date" placeholder="data" required>
                     <input class="botao" type="submit" value="Enviar">
+                    <input class="botao" type="reset" value="Excluir">
+               
         </form>
+ 
     </main>
-    <!-- <footer>
-        <h2>By Ana and Gaby</h2>
-    </footer> -->
 
-    <!-- <img src="/PWBE/aula 02/Projeto B/projB/front/FOTO/DONABETH.png" alt=""> -->
+ 
     
 </body>
 </html>
+
+   <!-- By Ana and Gaby -->

@@ -1,6 +1,8 @@
 const selector = document.getElementById("selector");
 const value = document.getElementById("valor");
+const date = document.getElementById("data");
 const quantity = document.getElementById("quantidade");
+const product = document.getElementById("produtos");
 const total = document.getElementById("total");
 
 selector.addEventListener("change", (event) => {
